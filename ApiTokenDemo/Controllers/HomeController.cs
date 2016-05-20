@@ -13,15 +13,12 @@ namespace ApiTokenDemo.Controllers
         public ActionResult Index()
         {
             ViewBag.Title = "Home Page";
-            testdemo();
-            GetData();
             return View();
         }
 
         public void testdemo()
         {
             var ss = CreateRandomNum.CraetToken();
-
         }
         public  void GetData()
         {
