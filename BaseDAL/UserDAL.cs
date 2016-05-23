@@ -416,9 +416,15 @@ namespace BaseDAL
         }
         #endregion
         #endregion 
+        private  const string ADDUSER = "INSERT INTO BG_USER(StrUserName,StrPassWord) VALUES(@StrUserName,@StrPassWord)";
+        private const string UPDATEUSER = "";
+        private const string DELETEUSER= "";
+        private const string SELECTUSERBYID = "";
 
         public void AddUser()
-        { }
+        {
+
+        }
 
         public void UpdateUser()
         { }
