@@ -10,8 +10,6 @@ namespace ClsBsaic.Toolkit
 {
    public  class ToolAntiXss
     {
-
-
         public void AntiXss()
         {
             string input = null;
